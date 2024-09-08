@@ -44,19 +44,19 @@ if not df.empty:
     def first_chart(df):
         show_columns =["Měsíc","Bílkoviny[g]_na_den","Komplexní_sacharidy_na_den[g]","Cukry[g]_na_den","Nasycené_mastné_kyseliny[g]_na_den","Nenasycené_mastné_kyseliny_na_den[g]","Vláknina[g]_na_den","Sůl[g]_na_den"]
         chart = GraphGenerator(df)
-        fig = chart.show_bar_chart(show_columns, ylabel_name = "Průměrné_množství_živin_za_den[g]", chart_name ="Průměrný příjem živin na den v jednotlivých měsících[g]")
+        fig = chart.show_bar_chart(show_columns, ylabel_name = "Průměrné množství živin za den[g]", chart_name ="Průměrný příjem živin na den v jednotlivých měsících[g]")
         st.pyplot(fig)
 
     def second_chart(df):
         show_columns =["Měsíc","Bílkoviny[g]_na_den_[kcal]","Komplexní_sacharidy_na_den[g]_[kcal]","Cukry[g]_na_den_[kcal]","Nasycené_mastné_kyseliny[g]_na_den_[kcal]","Nenasycené_mastné_kyseliny_na_den[g]_[kcal]"]
         chart = GraphGenerator(df)
-        fig = chart.show_bar_chart(show_columns,fontsize=12,chart_name ="Průměrná energie příjatá z živin na den v jednotlivých měsících[kcal]")
+        fig = chart.show_bar_chart(show_columns,fontsize=12,ylabel_name = "Průměrné množství energie za den[kcal]", chart_name ="Průměrná energie příjatá z živin na den v jednotlivých měsících[kcal]")
         st.pyplot(fig)
 
     def third_chart(df):
         show_columns =["Měsíc","Bílkoviny[g]_na_den_[kcal]","Komplexní_sacharidy_na_den[g]_[kcal]","Cukry[g]_na_den_[kcal]","Nasycené_mastné_kyseliny[g]_na_den_[kcal]","Nenasycené_mastné_kyseliny_na_den[g]_[kcal]"]
         chart = GraphGenerator(df)
-        fig = chart.show_bar_chart(show_columns,convert_to_percentages = True, fontsize=12, chart_name ="Průměrná energie příjatá z živin na den v jednotlivých měsících[%]")
+        fig = chart.show_bar_chart(show_columns,convert_to_percentages = True, fontsize=12, ylabel_name = "Průměrné množství energie za den[%]", chart_name ="Průměrná energie příjatá z živin na den v jednotlivých měsících[%]")
         st.pyplot(fig)
 
     first_chart(df)
