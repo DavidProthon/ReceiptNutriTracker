@@ -19,11 +19,11 @@ if st.button("Zpracuj účtenky"):
     MainDataStore().execute_flow()
     placeholder.text("Hotovo!")
     time.sleep(1)
-    st.write("Data získaná z účtenek jsou k nalezení na dalších stránkách")
+    st.write("Data získaná z účtenek jsou zpracována na dalších stránkách aplikace")
 
     number_of_missing_objects = 1
 
     if number_of_missing_objects > 0:
-        st.write("Položky z účtenek, které nejsou uloženy v databázi jsou vygenerovány v souboru 'Nenalezené potraviny.xlsx' ve složce s tímto scriptem.")
-        st.write("Pokuď máte zájem o přidání těchto položek do databáze, vyplň vygenerovaný soubor o odešlete ho na adresu NAPIS@ADRESU.com")
+        st.write("Položky z účtenek, které nejsou uloženy v databázi jsou vygenerovány v souboru 'Nezpracované položky.xlsx' ve složce s touto aplikací.")
+        st.write("Pokuď máte zájem o přidání těchto položek do databáze, vyplňte vygenerovaný soubor o odešlete ho na adresu NAPIS@ADRESU.com")
 
