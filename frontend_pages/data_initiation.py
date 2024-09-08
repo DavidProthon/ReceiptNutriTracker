@@ -5,8 +5,6 @@ from main_data_store import MainDataStore
 from receipts_manager import ReceiptsManager
 from process_data import ProcessData
 
-#TODO Add a condition, if i find 0 items, then even before I give the option to process the receipts, it says that I haven't found anything
-
 number_of_receipts, expected_processing_time = ReceiptsManager.basic_processing_information()
 
 st.title("Zpracování účtenek")

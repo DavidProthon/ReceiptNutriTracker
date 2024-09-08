@@ -47,7 +47,7 @@ class GraphGenerator:
 
         return fig
         
-    def show_bar_chart(self,show_items,convert_to_percentages = False,fontsize=10, fontsize_xlabel = 14, fontsize_ylabel = 14):
+    def show_bar_chart(self,show_items,convert_to_percentages = False,fontsize=10, fontsize_xlabel = 14, fontsize_ylabel = 14, chart_name = None):
         df_filter = self.df[show_items]
         df_grouped = df_filter.groupby("Měsíc").sum(numeric_only=True)
 
@@ -62,8 +62,8 @@ class GraphGenerator:
             return fig 
 
         ax.set_xlabel("Rok-Měsíc",fontsize=fontsize_xlabel)
-        ax.set_ylabel("Průměrné_množství_makroživin_za_den[g]",fontsize=fontsize_ylabel)
-        ax.set_title("název grafu")
+        ax.set_ylabel("Průměrné_množství_živin_za_den[g]",fontsize=fontsize_ylabel)
+        ax.set_title(chart_name)
         ax.set_xticklabels(df_grouped.index.strftime("%Y-%m"), rotation=45)
         ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.3), ncol=2)
 
