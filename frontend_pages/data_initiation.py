@@ -26,6 +26,8 @@ if st.button("Zpracuj účtenky"):
     number_of_missing_objects = ProcessData.number_of_row_items()
     if number_of_missing_objects > 0:
         st.write(f"Počet nezpracovaných položek: {number_of_missing_objects}")
-        st.write("Nezpracované položky jsou vygenerovány v souboru 'Nezpracované položky.xlsx' ve složce s touto aplikací.")
-        st.write("Pokuď máte zájem o přidání těchto položek do databáze, vyplňte vygenerovaný soubor o odešlete ho na adresu NAPIS@ADRESU.com")
+        st.write("Termín 'nezpracované položky' označuje položky, které nejsou obsaženy v databázi, nedošlo k jejich zpracování a aplikace s nimi nepracuje.")
+        st.write("Najdete je vygenerovány v souboru 'Nezpracované položky.xlsx' ve složce této aplikace.")
+        st.write("Pokuď máte zájem o přidání těchto položek do databáze, vyplňte vygenerovaný soubor o odešlete ho na adresu NAPIS@ADRESU.com. Postup pro vyplnění vygenerovaného souboru najdete na úvodní stránce aplikace.")
+
 
