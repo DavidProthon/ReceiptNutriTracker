@@ -1,0 +1,267 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="Stránka-1" id="Q1AQo6BlndZ6U1Oo9Zjn">
+    <mxGraphModel dx="2603" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aq7Mo0SGrH026TPVJJxo-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="103.75" y="510" width="966.25" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aq7Mo0SGrH026TPVJJxo-21" value="app.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="103.75" y="480" width="966.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9zsp4KErAtupcSZ53AjF-5" value="Nezpracované položky.xlsx" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="397.5" y="-150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-440" y="-200" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-1" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;Receipts&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-10" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-2" value="receipt_base.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-10" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-220" y="-40" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0jib5xPWaqYzey7iIDNu-1" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;BillaReceipts&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-11" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0jib5xPWaqYzey7iIDNu-2" value="billa_receipts.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-11" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-12" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-220" y="90" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aq7Mo0SGrH026TPVJJxo-2" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;AlbertReceipts&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-12" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yNHix9z-P8q24ktiH5Nn-2" value="albert_receipts.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-12" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-630" y="-35" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-14" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;TestBillaReceipts&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-13" vertex="1">
+          <mxGeometry x="-20" y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-15" value="test_billa_receipts.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-13" vertex="1">
+          <mxGeometry x="-20" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-16" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-650" y="90" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-17" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;TestAlbertReceipts&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-16" vertex="1">
+          <mxGeometry y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-18" value="test_albert_receipts.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-16" vertex="1">
+          <mxGeometry width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="100" as="sourcePoint" />
+            <mxPoint x="-461" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-219" y="-20.5" as="sourcePoint" />
+            <mxPoint x="-460" y="-20.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-1" target="0jib5xPWaqYzey7iIDNu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-1" target="aq7Mo0SGrH026TPVJJxo-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-33" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="30" y="-40" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-34" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;ReceiptsManager&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-33" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-35" value="receipts_manager.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-33" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-36" target="krbAVQNalTD3yUZLkODh-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-36" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;PngReader&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;PdfReader&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-170" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-37" value="read_recepits.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-200" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0jib5xPWaqYzey7iIDNu-1" target="krbAVQNalTD3yUZLkODh-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aq7Mo0SGrH026TPVJJxo-2" target="krbAVQNalTD3yUZLkODh-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-48" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="397.5" y="-40" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-49" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;MainDataStore&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-48" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-50" value="main_data_store.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-48" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-50" target="9zsp4KErAtupcSZ53AjF-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="483" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-55" target="krbAVQNalTD3yUZLkODh-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-55" value="receipts_table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-35" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-56" value="projekt_data.db" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-60" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="krbAVQNalTD3yUZLkODh-34" target="krbAVQNalTD3yUZLkODh-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="krbAVQNalTD3yUZLkODh-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="22.666666666666515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-66" value="food_data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="620" y="-37.5" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-67" target="krbAVQNalTD3yUZLkODh-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-67" value="projekt_data.db" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="-62.5" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-72" target="krbAVQNalTD3yUZLkODh-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-72" value="iniciation_data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-365" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-73" value="projekt_data.db" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-390" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-74" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="780" y="-37.5" width="170" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-75" value="&lt;pre&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;ScrapeNutriens&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-74" vertex="1">
+          <mxGeometry y="29.25" width="170" height="68.25" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-76" value="scrape_nutriens.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-74" vertex="1">
+          <mxGeometry width="170" height="29.25" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-77" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="780" y="-190" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-78" value="&lt;pre&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;FoodForScraping&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-77" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-79" value="food_for_scraping.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-77" vertex="1">
+          <mxGeometry x="-1" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-78" target="krbAVQNalTD3yUZLkODh-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="krbAVQNalTD3yUZLkODh-92" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482.11111111111086" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-92" value="final_data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="437.5" y="135" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-93" value="projekt_data.db" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="437.5" y="110" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-49" target="krbAVQNalTD3yUZLkODh-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.981;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="krbAVQNalTD3yUZLkODh-75" target="krbAVQNalTD3yUZLkODh-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-100" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="400" y="320" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-101" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;ProcesData&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-100" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-102" value="proces_data.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-100" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-101" target="aq7Mo0SGrH026TPVJJxo-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-105" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="160" y="320" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-106" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;class&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;GraphGenerator&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-105" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-107" value="graph_generator.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-105" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-101" target="krbAVQNalTD3yUZLkODh-106" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-112" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="120" y="530" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-113" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-112" vertex="1">
+          <mxGeometry y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-114" value="about_aplication.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-112" vertex="1">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-115" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="310" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-116" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-115" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-117" value="data_initiation.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-115" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-118" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="510" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-119" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-118" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-120" value="prices.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-118" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-121" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="700" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-122" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-121" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-123" value="macronutriens.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-121" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-124" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="890" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-125" value="&lt;pre&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="krbAVQNalTD3yUZLkODh-124" vertex="1">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-126" value="amount_of_food.py" style="rounded=0;whiteSpace=wrap;html=1;" parent="krbAVQNalTD3yUZLkODh-124" vertex="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krbAVQNalTD3yUZLkODh-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-106" target="aq7Mo0SGrH026TPVJJxo-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

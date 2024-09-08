@@ -1,0 +1,11 @@
+/venv
+/uctenky_zaloha
+/uctenky
+/others
+.vscode
+*.xlsx
+/__pycache__
+/Tesseract-OCR
+/scrape_nutriens.py
+/food_for_scraping.py
+/TODO.txt
