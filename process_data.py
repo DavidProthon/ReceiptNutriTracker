@@ -4,6 +4,8 @@ The module is used to load the necessary data for individual streamlite pages an
 
 import sqlite3
 import pandas as pd
+import openpyxl
+from pathlib import Path
 
 #TODO Possible to separate the module obtaining data and processing data
 
@@ -224,5 +226,25 @@ class ProcessData:
         )
 
         return df
+    
+    @staticmethod
+    def number_of_row_items():
+        """
+        Function is used to go through the file "Nezpracované položky" and find the number of records.
+
+        """
+        
+        path = Path("Nezpracované položky.xlsx")
+        
+        # Check if the file exists
+        if not path.exists():
+
+            return 0
+        else:
+            wb = openpyxl.load_workbook(path)
+            sheet = wb.active
+            row_count = sheet.max_row - 1
+            
+            return row_count if row_count > 0 else 0
 
 
