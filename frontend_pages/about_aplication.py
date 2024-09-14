@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Vítejte v Aplikaci ReceiptNutriTracker")
+st.title("Vítejte v aplikaci ReceiptNutriTracker")
 
 #introduction
 st.subheader("O aplikaci")
@@ -44,14 +44,28 @@ st.markdown(html_table, unsafe_allow_html=True)
 
      
 # visualization description
-st.markdown("""
+st.subheader("Co vše naleznete v aplikaci")
+st.markdown("#### V sekci 'Ceny'") 
 
+st.markdown("""    
+Zde vyberete libovolné položky, které vás zajímají.
+První graf zobrazuje, kolik stála položka v čase nákupu.
+Druhý graf zobrazuje cenu přepočtenou na 100g.
+""")         
+st.image('./images/ceny.png', use_column_width=True)          
 
-""")
+st.markdown("#### V sekci 'Makroživiny'") 
+
+st.markdown("""    
+Zde vyberete libovolné položky, které vás zajímají.
+První graf ukazuje, kolik stála položka v čase nákupu.
+Druhý graf ukazuje cenu přepočtenou na 100g.
+""")         
+st.image('./images/ceny.png', use_column_width=True)
 
 # how to insall
 st.markdown("""
- 
+ fdfd
 """)
 
 #contact
