@@ -1,5 +1,13 @@
 import streamlit as st
 
+from process_data import ProcessData
+
+@st.cache_data
+def create_folder_if_not_exists():
+    ProcessData().create_folder_if_not_exists()
+
+create_folder_if_not_exists()
+
 about_page = st.Page(
     "frontend_pages/about_aplication.py",
     title="O aplikaci",

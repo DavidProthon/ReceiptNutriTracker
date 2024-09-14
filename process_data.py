@@ -230,7 +230,7 @@ class ProcessData:
     @staticmethod
     def number_of_row_items():
         """
-        Function is used to go through the file "Nezpracované položky" and find the number of records.
+        Function is used to go through the file "Nezpracované položky.xlsx" and find the number of records.
 
         """
         
@@ -245,5 +245,19 @@ class ProcessData:
             row_count = sheet.max_row - 1
             
             return row_count if row_count > 0 else 0
+        
+    @staticmethod
+    def create_folder_if_not_exists():
+        """
+        Create the receipt folder if it does not exist
+        """
+
+        folder = Path(__file__).parent / "uctenky"
+        if folder.exists():
+            pass
+        else:
+            folder.mkdir(parents=True, exist_ok=True)
+
+
 
 

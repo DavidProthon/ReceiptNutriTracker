@@ -5,6 +5,14 @@ from main_data_store import MainDataStore
 from receipts_manager import ReceiptsManager
 from process_data import ProcessData
 
+#TODO
+#adding a function to the final_data extension (currently it is deleted before each receipt processing.)
+#Procedure:
+#1) Add time scraping from receipts
+#2) Add a check to see if the receipt has already been processing
+#3) Add the option to add receipts to final_data, or delete final_data before processing new receipts
+
+data_in_final_database = True
 number_of_receipts, expected_processing_time = ReceiptsManager.basic_processing_information()
 
 st.title("Zpracování účtenek")
