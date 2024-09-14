@@ -23,7 +23,8 @@ class MainDataStore:
         SELECT DISTINCT
             {self.receipts_table}."Položka",
             {self.food_table}."Odkaz",
-            {self.food_table}."Velikost_balení"
+            {self.food_table}."Velikost_balení",
+            {self.food_table}."Druh_potraviny"
         FROM {self.receipts_table} 
         LEFT JOIN {self.food_table} 
         ON {self.receipts_table}."Položka" = {self.food_table}."Položka"
