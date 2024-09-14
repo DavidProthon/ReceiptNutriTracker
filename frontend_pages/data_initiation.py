@@ -23,7 +23,7 @@ if st.button("Smazat data"):
     ProcessData.delete_final_data()
     st.write("Data smazána")
 
-st.write("V případě zmáčknutí tlačítka 'Zpracuj účtenky' dojde ke zpracování účtenek ve složky 'uctenky' ")
+st.write("V případě zmáčknutí tlačítka 'Zpracuj účtenky' dojde ke zpracování účtenek uložených ve složce 'uctenky' ")
 
 st.write(f"Počet účtenek ke zpracování: {number_of_receipts}")
 
