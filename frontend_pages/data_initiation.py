@@ -17,7 +17,9 @@ number_of_receipts, expected_processing_time = ReceiptsManager.basic_processing_
 
 st.title("Zpracování účtenek")
 
-if st.button("Smazat data z účtenek"):
+
+st.write("Pokuď si přejete odstranit data vašich již zpracovaných účtenek, zmáčkněte tlačítko 'Smazat data' ")
+if st.button("Smazat data"):
     ProcessData.delete_final_data()
     st.write("Data smazána")
 
@@ -30,7 +32,7 @@ else:
     st.write(f"Předpokládaný čas zpracování: {expected_processing_time} vteřiny")
     if st.button("Zpracuj účtenky"):
         placeholder = st.empty()
-        placeholder.text("zpracovávám......")
+        placeholder.text("Zpracovávám......")
         MainDataStore().execute_flow()
         placeholder.text("Hotovo!")
         st.write("Data získaná z účtenek jsou zpracována na dalších stránkách aplikace")
