@@ -258,6 +258,19 @@ class ProcessData:
         else:
             folder.mkdir(parents=True, exist_ok=True)
 
+            
+    @staticmethod
+    def delete_final_data():
+        """
+        Temporary function for delete final_data before push to github.
+        Will be deprecated after split database.
+        """
+        with sqlite3.connect("projekt_data.db") as conn:
+            conn.execute("DROP TABLE IF EXISTS final_data")
+
+
+    
+
 
 
 

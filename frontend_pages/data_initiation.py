@@ -16,6 +16,11 @@ data_in_final_database = True
 number_of_receipts, expected_processing_time = ReceiptsManager.basic_processing_information()
 
 st.title("Zpracování účtenek")
+
+if st.button("Smazat data z účtenek"):
+    ProcessData.delete_final_data()
+    st.write("Data smazána")
+
 st.write(f"Počet účtenek ke zpracování: {number_of_receipts}")
 
 if number_of_receipts < 1:
