@@ -18,10 +18,12 @@ number_of_receipts, expected_processing_time = ReceiptsManager.basic_processing_
 st.title("Zpracování účtenek")
 
 
-st.write("Pokuď si přejete odstranit data vašich již zpracovaných účtenek, zmáčkněte tlačítko 'Smazat data' ")
+st.write("Pokuď si přejete odstranit data vašich již zpracovaných účtenek, zmáčkněte tlačítko 'Smazat data'.")
 if st.button("Smazat data"):
     ProcessData.delete_final_data()
     st.write("Data smazána")
+
+st.write("V případě zmáčknutí tlačítka 'Zpracuj účtenky' dojde ke zpracování účtenek ve složky 'uctenky' ")
 
 st.write(f"Počet účtenek ke zpracování: {number_of_receipts}")
 
