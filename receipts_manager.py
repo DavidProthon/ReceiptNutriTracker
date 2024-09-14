@@ -97,7 +97,7 @@ class ReceiptsManager(MainDataStore):
                 png_count += 1
         
         number_of_receipts = pdf_count + png_count 
-        expected_processing_time = (pdf_count*processing_time_pdf) + (png_count*processing_time_png) + (other_processing_time)
+        expected_processing_time = round(float((pdf_count*processing_time_pdf) + (png_count*processing_time_png) + (other_processing_time)), 1)
 
         return  number_of_receipts, expected_processing_time
     
