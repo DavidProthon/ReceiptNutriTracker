@@ -236,7 +236,6 @@ class ProcessData:
         
         path = Path("Nezpracované položky.xlsx")
         
-        # Check if the file exists
         if not path.exists():
 
             return 0
