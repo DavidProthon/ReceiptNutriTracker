@@ -73,7 +73,10 @@ Pokud na nějakou narazíte, nebo máte zájem o přidání nové funkcionality,
 Doufám, že se vám aplikace bude líbit a najdete pro ni využití.
 Každý, kdo by se chtěl připojit k vývoji, je vítán.
 
+<<<<<<< HEAD
 Email
 
+=======
+>>>>>>> 0802c29d6b9970bf8dd9987b701737be20deb191
 S pozdravem,            
 DavidProthon    
