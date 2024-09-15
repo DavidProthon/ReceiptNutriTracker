@@ -40,7 +40,7 @@ Zde vyberete libovolné položky, které vás zajímají.
 První graf zobrazuje, kolik stála položka v čase nákupu.
 Druhý graf zobrazuje cenu přepočtenou na 100g.
         
-!(./images/prices.png)         
+![](./images/prices.png)         
 
 ### V sekci 'Makroživiny' 
 
