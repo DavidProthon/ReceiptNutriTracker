@@ -24,14 +24,11 @@ maso, masné výrobky, ryby, vejce, mléko a mléčné výrobky, obiloviny, ovoc
 
 #### Příklad vyplněné tabulky:
 
-sample_data = [
-    {"Položka": "PAPRIKA ČERVENÁ_Albert", "Odkaz": "https://www.kaloricketabulky.cz/potraviny/paprika-cervena", "Velikost_balení": 1000,"Druh_potraviny": "zelenina"},
-    {"Položka": "MLYNÁŘSKÁ VEKA 400G_Albert", "Odkaz": "https://www.kaloricketabulky.cz/potraviny/mlynarska-zitna-veka-albertovo-pekarstvi", "Velikost_balení": 400,"Druh_potraviny": "obiloviny"},
-]
+| Položka                    | Odkaz                                                                              | Velikost_balení  | Druh_potraviny  |
+| :-------------------------:| :---------------------------------------------------------------------------------:| :---------------:| :-------------: |
+| PAPRIKA ČERVENÁ_Albert     | https://www.kaloricketabulky.cz/potraviny/paprika-cervena                          | 1000             |  zelenina       |
+| MLYNÁŘSKÁ VEKA 400G_Albert | https://www.kaloricketabulky.cz/potraviny/mlynarska-zitna-veka-albertovo-pekarstvi | 400              |  obiloviny      |
 
-df = pd.DataFrame(sample_data)
-html_table = df.to_html(index=False)
-st.markdown(html_table, unsafe_allow_html=True)
 
 ## Co aplikace nabízí
 ### V sekci 'Ceny'
