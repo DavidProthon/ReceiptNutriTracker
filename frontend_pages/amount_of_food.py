@@ -29,7 +29,7 @@ if not df.empty:
     def first_chart(df,selected_items):
         chart = GraphGenerator(df)
         df,new_columns = ProcessData.get_quantity_of_selected_type(df,selected_items)
-        fig = chart.show_bar_chart(new_columns,fontsize=12, ylabel_name = "Průměrné množství energie za den[kcal]", chart_name ="Průměrná energie příjatá z živin na den v jednotlivých měsících[kcal]")
+        fig = chart.show_bar_chart(new_columns,fontsize=12, ylabel_name = "Průměrné množství potravin za den[g]", chart_name ="Průměrné množství vybraných druhů potravin na den v jednotlivých měsících[g]")
         st.pyplot(fig)
 
     first_chart(df,selected_items)
