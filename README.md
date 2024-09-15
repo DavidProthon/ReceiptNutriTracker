@@ -48,16 +48,16 @@ Zde naleznete 3 sloupcové grafy.
 První zobrazuje průměrné množství makroživin za den v gramech pro jednotlivé měsíce.            
 Druhý zobrazuje průměrné množství makroživin za den v kcal pro jednotlivé měsíce.            
 Třetí zobrazuje procentuální podíl příjmu energie z makroživin za den pro jednotlivé měsíce.
-      
-st.image('./images/macronutriens_1.png', use_column_width=True)
-st.image('./images/macronutriens_2.png', use_column_width=True)
+
+![](./images/macronutriens_1.png)
+![](./images/macronutriens_2.png)
 
 ### V sekci 'Množství jídla' 
    
 Zde vyberete libovolné položky, které vás zajímají.
 Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednotlivých měsících[g].         
-     
-st.image('./images/amount_of_food.png', use_column_width=True)
+
+![](./images/amount_of_food.png)
 
 ## Instalace
 
