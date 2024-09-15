@@ -44,34 +44,69 @@ st.markdown(html_table, unsafe_allow_html=True)
 
      
 # visualization description
-st.subheader("Co vše naleznete v aplikaci")
+st.subheader("Co aplikace nabízí")
 st.markdown("#### V sekci 'Ceny'") 
 
 st.markdown("""    
 Zde vyberete libovolné položky, které vás zajímají.
+            
 První graf zobrazuje, kolik stála položka v čase nákupu.
+            
 Druhý graf zobrazuje cenu přepočtenou na 100g.
 """)         
-st.image('./images/ceny.png', use_column_width=True)          
+st.image('./images/prices.png', use_column_width=True)          
 
 st.markdown("#### V sekci 'Makroživiny'") 
 
 st.markdown("""    
-Zde vyberete libovolné položky, které vás zajímají.
-První graf ukazuje, kolik stála položka v čase nákupu.
-Druhý graf ukazuje cenu přepočtenou na 100g.
+Zde naleznete 3 sloupcové grafy.
+            
+První zobrazuje průměrné množství makroživin za den v gramech pro jednotlivé měsíce.
+            
+Druhý zobrazuje průměrné množství makroživin za den v kcal pro jednotlivé měsíce.
+            
+Třetí zobrazuje procentuální podíl příjmu energie z makroživin za den pro jednotlivé měsíce.
+
 """)         
-st.image('./images/ceny.png', use_column_width=True)
+st.image('./images/macronutriens_1.png', use_column_width=True)
+st.image('./images/macronutriens_2.png', use_column_width=True)
+
+st.markdown("#### V sekci 'Množství jídla'") 
+
+st.markdown("""    
+Zde vyberete libovolné položky, které vás zajímají.
+
+Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednotlivých měsících[g].         
+
+""")         
+st.image('./images/amount_of_food.png', use_column_width=True)
 
 # how to insall
+st.subheader("Instalace")
 st.markdown("""
- fdfd
+ 
 """)
 
+#License
+st.subheader("Licence")
+st.markdown("""
+Tento projekt je licencován pod MIT licencí.
+""")
+
+      
 #contact
+st.subheader("Kontakt a pár slov na závěr")
 st.markdown("""
 
-### Kontakt:
-Máte dotazy nebo potřebujete pomoc? Neváhejte nás kontaktovat na **EMAIL**.
+Aplikace je momentálně ve vývoji a může obsahovat chyby.
+
+Pokud na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu EMAIL, případně rovnou zašlete Pull Request.
+
+Doufám, že se vám aplikace bude líbit a najdete pro ni využití.
+
+Každý, kdo by se chtěl připojit k vývoji, je vítán.
+
+S pozdravem,            
+DavidProthon    
 
 """)
