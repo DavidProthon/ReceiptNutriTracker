@@ -58,7 +58,16 @@ Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednot
 
 ## Instalace
 
-## License
+# Postup pro windows
+Nejdříve je potřeba nainstalovat git, pokuď ho nemáte (to si ověříte tak, že do terminálu zadáte příkaz `git --version`)
+Pokuď ho nemáte, jděte na oficiální stránku Git `https://git-scm.com/downloads`
+Git můžete nainstalvoat kam chcete, ale je důležité zaškrtnout tlačítko `Git from the command line and also from 3rd-party software` při instalaci.
+
+Pomocí příkazu `git clone https://github.com/DavidProthon/ReceiptNutriTracker.git` si naklonujte repozitář do svého počítače.
+Přejděte do složky projektu a vytvořte si zde virtuální prostředí. `python -m venv venv` a aktivujte příkazem `.\venv\Scripts\activate`
+
+
+## Licence
 
 Tento projekt je licencován pod MIT licencí.
  

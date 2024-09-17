@@ -84,7 +84,7 @@ st.image('./images/amount_of_food.png', use_column_width=True)
 # how to insall
 st.subheader("Instalace")
 st.markdown("""
- 
+ 1) Naklonujte repozitář do svého počítače git clone https://github.com/DavidProthon/ReceiptNutriTracker.git
 """)
 
 #License
