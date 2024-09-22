@@ -56,16 +56,26 @@ Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednot
 
 ![](./images/amount_of_food.png)
 
+## Architektura
+![](./architecture/architecture.png)
+
 ## Instalace
 
-# Postup pro windows
-Nejdříve je potřeba nainstalovat git, pokuď ho nemáte (to si ověříte tak, že do terminálu zadáte příkaz `git --version`)
-Pokuď ho nemáte, jděte na oficiální stránku Git `https://git-scm.com/downloads`
-Git můžete nainstalvoat kam chcete, ale je důležité zaškrtnout tlačítko `Git from the command line and also from 3rd-party software` při instalaci.
+### Postup pro windows
+Nejprve ověřte, zda máte nainstalovaný Git -> Otevřete terminál a zadejte: `git --version`
+Pokud Git není nainstalován, stáhněte si jej z oficiálních stránek: `https://git-scm.com/downloads`
+Během instalace můžete Git nainstalovat do libovolného adresáře, ale je důležité zaškrtnout možnost: `Git from the command line and also from 3rd-party software`
 
-Pomocí příkazu `git clone https://github.com/DavidProthon/ReceiptNutriTracker.git` si naklonujte repozitář do svého počítače.
-Přejděte do složky projektu a vytvořte si zde virtuální prostředí. `python -m venv venv` a aktivujte příkazem `.\venv\Scripts\activate`
+Nyní naklonujte repozitář projektu do svého počítače pomocí příkazu `git clone https://github.com/DavidProthon/ReceiptNutriTracker.git` 
+Přesuňte se do složky projektu `ReceiptNutriTracker` a vytvořte si zde virtuální prostředí příkazem `python -m venv venv` a aktivujte ho `venv\Scripts\activate`
 
+S aktivovaným virtuálním prostředím nainstalujte závislosti `pip install -r requirements.txt` 
+Vytvořte složku "Tesseract-OCR" ve složce projektu příkazem `mkdir Tesseract-OCR`, do které nainstalujte Tesseract-OCR z `https://github.com/UB-Mannheim/tesseract/wiki`.
+Stáhněte si jazykový datový soubor pro český jazyk "ces.traineddata" ze stránky `https://github.com/tesseract-ocr/tessdata/blob/main/ces.traineddata`
+a vložte ho do složky `NutriTracker\Tesseract-OCR\tessdata`
+
+Nakonec vytvořte složku "uctenky" ve složce projektu příkazem `mkdir uctenky` a vložte do ní účtenky, které chcete zpracovat.
+Nyní můžete aplikaci spustit příkazem `streamlit run app.py`
 
 ## Licence
 
@@ -75,7 +85,7 @@ Tento projekt je licencován pod MIT licencí.
 ## Kontakt a pár slov na závěr
 
 Aplikace je momentálně ve vývoji a může obsahovat chyby.
-Pokud na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu EMAIL, případně rovnou zašlete Pull Request.
+Pokuď na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu EMAIL, případně rovnou zašlete Pull Request.
 Doufám, že se vám aplikace bude líbit a najdete pro ni využití.
 Každý, kdo by se chtěl připojit k vývoji, je vítán.
 
