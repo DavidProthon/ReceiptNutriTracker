@@ -64,7 +64,7 @@ Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednot
 ### Postup pro windows
 Nejprve ověřte, zda máte nainstalovaný Git -> Otevřete terminál a zadejte: `git --version`
 Pokud Git není nainstalován, stáhněte si jej z oficiálních stránek: `https://git-scm.com/downloads`
-Během instalace můžete Git nainstalovat do libovolného adresáře, ale je důležité zaškrtnout možnost: `Git from the command line and also from 3rd-party software`
+Git můžete nainstalovat do libovolného adresáře, ale je důležité zaškrtnout možnost: `Git from the command line and also from 3rd-party software`
 
 Nyní naklonujte repozitář projektu do svého počítače pomocí příkazu `git clone https://github.com/DavidProthon/ReceiptNutriTracker.git` 
 Přesuňte se do složky projektu `ReceiptNutriTracker` a vytvořte si zde virtuální prostředí příkazem `python -m venv venv` a aktivujte ho `venv\Scripts\activate`
