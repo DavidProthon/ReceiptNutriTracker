@@ -62,16 +62,16 @@ Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednot
 ## Instalace
 
 ### Postup pro windows
-Nejprve ověřte, zda máte nainstalovaný Git -> Otevřete terminál a zadejte: `git --version`
-Pokud Git není nainstalován, stáhněte si jej z oficiálních stránek: `https://git-scm.com/downloads`
-Git můžete nainstalovat do libovolného adresáře, ale je důležité zaškrtnout možnost: `Git from the command line and also from 3rd-party software`
+Nejprve ověřte, zda máte nainstalovaný Git. Otevřete terminál a zadejte: `git --version`.
+Pokud Git není nainstalován, stáhněte si jej z oficiálních stránek: https://git-scm.com/downloads
+Git můžete nainstalovat do libovolného adresáře, ale je důležité zaškrtnout možnost: **Git from the command line and also from 3rd-party software**.
 
-Nyní naklonujte repozitář projektu do svého počítače pomocí příkazu `git clone https://github.com/DavidProthon/ReceiptNutriTracker.git` 
-Přesuňte se do složky projektu `ReceiptNutriTracker` a vytvořte si zde virtuální prostředí příkazem `python -m venv venv` a aktivujte ho `venv\Scripts\activate`
+Nyní naklonujte repozitář projektu do svého počítače pomocí příkazu `git clone https://github.com/DavidProthon/ReceiptNutriTracker.git`. 
+Přesuňte se do složky projektu "ReceiptNutriTracker" a vytvořte si zde virtuální prostředí příkazem `python -m venv venv` a aktivujte ho `venv\Scripts\activate`.
 
 S aktivovaným virtuálním prostředím nainstalujte závislosti `pip install -r requirements.txt` 
-Vytvořte složku "Tesseract-OCR" ve složce projektu příkazem `mkdir Tesseract-OCR`, do které nainstalujte Tesseract-OCR z `https://github.com/UB-Mannheim/tesseract/wiki`.
-Stáhněte si jazykový datový soubor pro český jazyk "ces.traineddata" ze stránky `https://github.com/tesseract-ocr/tessdata/blob/main/ces.traineddata`
+Vytvořte složku **Tesseract-OCR** ve složce projektu příkazem `mkdir Tesseract-OCR`, do které nainstalujte Tesseract-OCR z `https://github.com/UB-Mannheim/tesseract/wiki`.
+Stáhněte si jazykový datový soubor pro český jazyk **ces.traineddata** ze stránky https://github.com/tesseract-ocr/tessdata/blob/main/ces.traineddata
 a vložte ho do složky `NutriTracker\Tesseract-OCR\tessdata`
 
 Nakonec vytvořte složku "uctenky" ve složce projektu příkazem `mkdir uctenky` a vložte do ní účtenky, které chcete zpracovat.
