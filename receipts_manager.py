@@ -86,7 +86,7 @@ class ReceiptsManager(MainDataStore):
         directory = Path(__file__).parent / "uctenky"
         pdf_count = 0
         png_count = 0
-        processing_time_pdf = 0.07
+        processing_time_pdf = 0.1
         processing_time_png = 3
         other_processing_time = 1
 
