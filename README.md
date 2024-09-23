@@ -8,7 +8,7 @@ Umožňuje to automatické zpracování nahraných účtenek (aktuálně je podp
 
 Z každé účtenky aplikace extrahuje informace o zakoupených položkách, jejich množství, ceně a datu nákupu. K těmto položkám navíc scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz.
 
-Aby nedocházelo k přílišnému vytěžování webu kaloricketabulky.cz, tak součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje výživová data některých položek v databázi projekt_data.db. Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
+Aby nedocházelo k přílišnému vytěžování webu www.kaloricketabulky.cz, tak součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje výživová data některých položek v databázi projekt_data.db. Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
 
 Pokud máte zájem o přidání položek do databáze, vyplňte soubor 'Nezpracované položky.xlsx' a zašlete ho na adresu receiptnutritracker@gmail.com. 
 K zaslaným položkám scrapuji data a aktualizuji repozitář GitHubu tohoto projektu."
