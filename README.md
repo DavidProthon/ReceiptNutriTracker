@@ -3,17 +3,17 @@
 
  ## O aplikaci
 
-Aplikace slouží ke zpracování účtenek ze supermarketů (aktuálně je podpora pro obchody Albert a Lidl). 
-Z každé účtenky získá data o nakoupených položkách, množství, ceně a data nákupu. K těmto položkám scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz.
-Aplikace je navržena tak, aby uživatelům pomohla sledovat výživové informace a výdaje na základě položek, které nakoupí.
-            
-Součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje data některých položek v databázi projekt_data.db. 
-Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
+Aplikace ReceiptNutriTracker je navržena tak, aby uživatelům pomohla sledovat dlouhodobé stravovací zvyklosti a cenovou hladinu zakoupených položek v supermarketech.
+Umožňuje to automatické zpracování nahraných účtenek (aktuálně je podpora pro obchody Albert a Lidl).
 
-Pokud máte zájem o přidání položek do databáze, vyplňte soubor 'Nezpracované položky.xlsx' a zašlete ho na adresu EMAIL. 
-K zaslaným položkám získám data pomocí scrapingu a aktualizuji repozitář GitHubu tohoto projektu."
+Z každé účtenky aplikace extrahuje informace o zakoupených položkách, jejich množství, ceně a datu nákupu. K těmto položkám navíc scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz.
 
-#### Postup pro vyplnění souboru "Nezpracované položky.xlsx"
+Aby nedocházelo k přílišnému vytěžování webu kaloricketabulky.cz, tak součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje výživová data některých položek v databázi projekt_data.db. Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
+
+Pokud máte zájem o přidání položek do databáze, vyplňte soubor 'Nezpracované položky.xlsx' a zašlete ho na adresu receiptnutritracker@gmail.com. 
+K zaslaným položkám scrapuji data a aktualizuji repozitář GitHubu tohoto projektu."
+
+## Postup pro vyplnění souboru "Nezpracované položky.xlsx"
             
 Soubor obsahuje 4 sloupce.             
 V prvním sloupci je vygenerovaný název položky z účtenek, tento sloupec neměňte.           
@@ -52,7 +52,7 @@ Třetí zobrazuje procentuální podíl příjmu energie z makroživin za den pr
 ### V sekci 'Množství jídla' 
    
 Zde vyberete libovolné položky, které vás zajímají.
-Graf zobrazuje průměrné množství vybraných druhů potravin na den v jednotlivých měsících[g].         
+Graf zobrazuje průměrné nakoupené množství vybraných druhů potravin na den v jednotlivých měsících v gramech.         
 
 ![](./images/amount_of_food.png)
 
@@ -70,22 +70,21 @@ Nyní naklonujte repozitář projektu do svého počítače pomocí příkazu `g
 Přesuňte se do složky projektu "ReceiptNutriTracker" a vytvořte si zde virtuální prostředí příkazem `python -m venv venv` a aktivujte ho `venv\Scripts\activate`.
 
 S aktivovaným virtuálním prostředím nainstalujte závislosti `pip install -r requirements.txt` 
-Vytvořte složku **Tesseract-OCR** ve složce projektu příkazem `mkdir Tesseract-OCR`, do které nainstalujte Tesseract-OCR z `https://github.com/UB-Mannheim/tesseract/wiki`.
+Vytvořte složku **Tesseract-OCR** ve složce projektu příkazem `mkdir Tesseract-OCR`, do které nainstalujte Tesseract-OCR z https://github.com/UB-Mannheim/tesseract/wiki.
 Stáhněte si jazykový datový soubor pro český jazyk **ces.traineddata** ze stránky https://github.com/tesseract-ocr/tessdata/blob/main/ces.traineddata
 a vložte ho do složky `NutriTracker\Tesseract-OCR\tessdata`
 
-Nakonec vytvořte složku "uctenky" ve složce projektu příkazem `mkdir uctenky` a vložte do ní účtenky, které chcete zpracovat.
+Nakonec vytvořte složku "uctenky" ve složce projektu příkazem `mkdir uctenky` a vložte do ní účtenky, které chcete zpracovat (nechte si je vygenerovat v nákupních aplikacích).
 Nyní můžete aplikaci spustit příkazem `streamlit run app.py`
 
 ## Licence
 
 Tento projekt je licencován pod MIT licencí.
  
-
 ## Kontakt a pár slov na závěr
 
 Aplikace je momentálně ve vývoji a může obsahovat chyby.
-Pokuď na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu EMAIL, případně rovnou zašlete Pull Request.
+Pokuď na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu receiptnutritracker@gmail.com, případně rovnou zašlete Pull Request.
 Doufám, že se vám aplikace bude líbit a najdete pro ni využití.
 Každý, kdo by se chtěl připojit k vývoji, je vítán.
 

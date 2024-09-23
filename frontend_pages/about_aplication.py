@@ -6,15 +6,15 @@ st.title("Vítejte v aplikaci ReceiptNutriTracker")
 #introduction
 st.subheader("O aplikaci")
 st.markdown("""
-Aplikace slouží ke zpracování účtenek ze supermarketů (aktuálně je podpora pro obchody Albert a Lidl). 
-Z každé účtenky získá data o nakoupených položkách, množství, ceně a data nákupu. K těmto položkám scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz.
-Aplikace je navržena tak, aby uživatelům pomohla sledovat výživové informace a výdaje na základě položek, které nakoupí.
-            
-Součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje data některých položek v databázi projekt_data.db. 
-Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
+Aplikace ReceiptNutriTracker je navržena tak, aby uživatelům pomohla sledovat dlouhodobé stravovací zvyklosti a cenovou hladinu zakoupených položek v supermarketech.
+Umožňuje to automatické zpracování nahraných účtenek (aktuálně je podpora pro obchody Albert a Lidl).
 
-Pokud máte zájem o přidání položek do databáze, vyplňte soubor 'Nezpracované položky.xlsx' a zašlete ho na adresu EMAIL. 
-K zaslaným položkám získám data pomocí scrapingu a aktualizuji repozitář GitHubu tohoto projektu."
+Z každé účtenky aplikace extrahuje informace o zakoupených položkách, jejich množství, ceně a datu nákupu. K těmto položkám navíc scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz.
+
+Aby nedocházelo k přílišnému vytěžování webu kaloricketabulky.cz, tak součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje výživová data některých položek v databázi projekt_data.db. Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
+
+Pokud máte zájem o přidání položek do databáze, vyplňte soubor 'Nezpracované položky.xlsx' a zašlete ho na adresu receiptnutritracker@gmail.com. 
+K zaslaným položkám scrapuji data a aktualizuji repozitář GitHubu tohoto projektu."
 
 **Postup pro vyplnění souboru "Nezpracované položky.xlsx"**:
             
@@ -95,7 +95,7 @@ st.markdown("""
 
 Aplikace je momentálně ve vývoji a může obsahovat chyby.
 
-Pokud na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu EMAIL, případně rovnou zašlete Pull Request.
+Pokud na nějakou narazíte, nebo máte zájem o přidání nové funkcionality, napište na adresu receiptnutritracker@gmail.com, případně rovnou zašlete Pull Request.
 
 Doufám, že se vám aplikace bude líbit a najdete pro ni využití.
 
