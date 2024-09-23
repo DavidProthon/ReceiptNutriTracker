@@ -46,6 +46,6 @@ else:
             st.write(f"Počet nezpracovaných položek: {number_of_missing_objects}")
             st.write("Termín 'nezpracované položky' označuje položky, které nejsou obsaženy v databázi, nedošlo k jejich zpracování a aplikace s nimi nepracuje.")
             st.write("Najdete je vygenerovány v souboru 'Nezpracované položky.xlsx' ve složce této aplikace.")
-            st.write("Pokuď máte zájem o přidání těchto položek do databáze, vyplňte vygenerovaný soubor o odešlete ho na adresu NAPIS@ADRESU.com. Postup pro vyplnění vygenerovaného souboru najdete na úvodní stránce aplikace.")
+            st.write("Pokuď máte zájem o přidání těchto položek do databáze, vyplňte vygenerovaný soubor o odešlete ho na adresu receiptnutritracker@gmail.com. Postup pro vyplnění vygenerovaného souboru najdete na úvodní stránce aplikace.")
 
 
