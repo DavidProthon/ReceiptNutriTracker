@@ -4,9 +4,11 @@
  ## O aplikaci
 
 Aplikace ReceiptNutriTracker je navržena tak, aby uživatelům pomohla sledovat dlouhodobé stravovací zvyklosti a cenovou hladinu zakoupených položek v supermarketech.
-Umožňuje to automatické zpracování nahraných účtenek (aktuálně je podpora pro obchody Albert a Lidl).
+To je umožněno díky automatickému zpracování digitálních účtenek vložených do aplikace (aktuálně je podpora pro obchody Albert a Lidl).
 
-Z každé účtenky aplikace extrahuje informace o zakoupených položkách, jejich množství, ceně a datu nákupu. K těmto položkám navíc scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz.
+Z každé účtenky aplikace extrahuje informace o zakoupených položkách, množství, ceně a datu nákupu. K těmto položkám scrapuje výživové hodnoty ze stránky www.kaloricketabulky.cz. Získaná data následně zpracuje a vytvoří přehledy. Více informací o aplikaci naleznete v sekci "Co aplikace nabízí" níže. 
+
+ ## Omezení
 
 Aby nedocházelo k přílišnému vytěžování webu www.kaloricketabulky.cz, tak součástí této volně přístupné verze není možnost scrapování dat. Aplikace již obsahuje výživová data některých položek v databázi projekt_data.db. Položky z vašich účtenek, které nejsou v databázi se vygenerují do souboru "Nezpracované položky.xlsx" po zmáčknutí tlačítka "Zpracuj účtenky" v sekci aplikace "Zpracování účtenek". 
 
