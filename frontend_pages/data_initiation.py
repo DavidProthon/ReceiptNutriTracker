@@ -20,7 +20,7 @@ st.title("Zpracování účtenek")
 
 st.write("Pokuď si přejete odstranit data vašich již zpracovaných účtenek, zmáčkněte tlačítko 'Smazat data'.")
 if st.button("Smazat data"):
-    ProcessData.delete_final_data()
+    ProcessData.delete_user_data()
     st.write("Data smazána")
 
 st.write("V případě zmáčknutí tlačítka 'Zpracuj účtenky' dojde ke zpracování účtenek uložených ve složce 'uctenky' ")
