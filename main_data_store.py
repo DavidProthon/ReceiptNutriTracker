@@ -1,5 +1,5 @@
 """
-Module that takes the data from the receipts, matches them with the data from the food database and creates the final data for the application.
+Module that takes the data from the receipts, matches them with the data from the food database and creates the database "user_db" with user data for the application.
 """
 
 import sqlite3
