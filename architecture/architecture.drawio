@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Stránka-1" id="Q1AQo6BlndZ6U1Oo9Zjn">
     <mxGraphModel dx="2603" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -177,10 +177,10 @@
             <mxPoint x="482.11111111111086" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="krbAVQNalTD3yUZLkODh-92" value="final_data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="krbAVQNalTD3yUZLkODh-92" value="user_data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="437.5" y="135" width="90" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="krbAVQNalTD3yUZLkODh-93" value="projekt_data.db" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="krbAVQNalTD3yUZLkODh-93" value="user_db" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="437.5" y="110" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="krbAVQNalTD3yUZLkODh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="krbAVQNalTD3yUZLkODh-49" target="krbAVQNalTD3yUZLkODh-93" edge="1">
