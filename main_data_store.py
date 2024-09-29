@@ -11,7 +11,6 @@ class MainDataStore:
         self.project_db = "projekt_data.db"
         self.food_table = "food_data"
         self.receipts_table = "receipts_table"
-        self.final_data = "final_data" # odstranit 
         self.user_db = "user_db.db" 
         self.user_data = "user_data" 
 
@@ -110,45 +109,6 @@ class MainDataStore:
 
         conn.commit()
         conn.close()
-
-    # def make_final_database(self):
-    #     """
-    #     Joins the table with the data from the receipts with the data from the food table to create a final table that serves as the data for the application.
-    #     """
-
-    #     query = f'''
-    #     CREATE TABLE {self.final_data} AS
-    #     SELECT
-    #         {self.receipts_table}."Položka",
-    #         {self.food_table}."Skutečné_jméno",
-    #         {self.food_table}."Odkaz",
-    #         {self.food_table}."Velikost_balení",
-    #         {self.receipts_table}."Poměrová_velikost_balení",
-    #         {self.receipts_table}."Cena",
-    #         {self.receipts_table}."Obchod",
-    #         {self.receipts_table}."Datum_nákupu",
-    #         {self.food_table}."Druh_potraviny",
-    #         {self.food_table}."Energetická_hodnota",
-    #         {self.food_table}."Bílkoviny",
-    #         {self.food_table}."Sacharidy",
-    #         {self.food_table}."Cukry",
-    #         {self.food_table}."Tuky",
-    #         {self.food_table}."Nasycené_mastné_kyseliny",
-    #         {self.food_table}."Trans_mastné_kyseliny",
-    #         {self.food_table}."Mononenasycené",
-    #         {self.food_table}."Polynenasycené",
-    #         {self.food_table}."Vláknina",
-    #         {self.food_table}."Sůl",
-    #         {self.food_table}."Vápník"
-
-    #     FROM {self.receipts_table} LEFT JOIN food_data ON {self.receipts_table}."Položka" = {self.food_table}."Položka"
-    #     WHERE
-    #         {self.food_table}."Odkaz" IS NOT NULL AND {self.food_table}."Velikost_balení" IS NOT NULL;
-    #     '''
-
-    #     with sqlite3.connect(self.project_db) as conn:
-    #         conn.execute(f"DROP TABLE IF EXISTS {self.final_data};")
-    #         conn.execute(query)
     
     def delete_receipts_data(self):
         """
