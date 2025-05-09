@@ -14,7 +14,7 @@ class PngReader:
     """
     A class that is used to convert a receipt in the form of png to a formatted string
     """
-    #pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    
     pytesseract.pytesseract.tesseract_cmd = Path(__file__).parent / "Tesseract-OCR" / "tesseract.exe"
     language_code = "ces"
 

@@ -11,14 +11,14 @@ from pathlib import Path
 
 class ProcessData:
     def __init__(self):
-        self.project_db = "projekt_data.db"
-        self.final_data = "final_data"
+        self.user_db = "user_db.db"
+        self.user_data = "user_data"
         self.connection = None
         self.df = pd.DataFrame()
 
     def connect(self):
         try:
-            self.connection = sqlite3.connect(self.project_db)
+            self.connection = sqlite3.connect(self.user_db)
         except sqlite3.Error as e:
             print(f"Chyba při připojování k databázi: {e}")
     
@@ -27,22 +27,22 @@ class ProcessData:
             self.connection.close()
             print("Připojení k databázi bylo uzavřeno.")
 
-    def get_data_from_final_data(self,query):
+    def get_data_from_user_data(self,query):
         if self.connection:
             try:
-                # Check if the "final_data" table exists
-                table_exists_query = "SELECT name FROM sqlite_master WHERE type='table' AND name='final_data';"
+                # Check if the "user_data" table exists
+                table_exists_query = "SELECT name FROM sqlite_master WHERE type='table' AND name='user_data';"
                 table_exists = pd.read_sql_query(table_exists_query, self.connection)
 
                 if table_exists.empty:
-                    raise Exception("Tabulka 'final_data' neexistuje.")
+                    raise Exception("Tabulka 'user_data' neexistuje.")
 
                 # If the "final data" table exists, we check if it contains any data
-                data_check_query = "SELECT COUNT(*) as row_count FROM final_data;"
+                data_check_query = "SELECT COUNT(*) as row_count FROM user_data;"
                 row_count = pd.read_sql_query(data_check_query, self.connection)
 
                 if row_count["row_count"][0] == 0:
-                    raise Exception("Tabulka 'final_data' neobsahuje žádná data.")
+                    raise Exception("Tabulka 'user_data' neobsahuje žádná data.")
 
                 # If the table exists and contains data, we load the data
                 self.df = pd.read_sql_query(query, self.connection)
@@ -59,9 +59,9 @@ class ProcessData:
         "Poměrová_velikost_balení", 
         "Cena",
         "Datum_nákupu"
-        FROM {self.final_data}"""
+        FROM {self.user_data}"""
 
-        self.get_data_from_final_data(query)
+        self.get_data_from_user_data(query)
 
     def data_macronutriens_page(self):
         query = f"""SELECT 
@@ -77,9 +77,9 @@ class ProcessData:
         "Nasycené_mastné_kyseliny",
         "Vláknina",
         "Sůl"
-        FROM {self.final_data}"""
+        FROM {self.user_data}"""
 
-        self.get_data_from_final_data(query)
+        self.get_data_from_user_data(query)
     
     def data_amount_of_food_page(self):
         query = f"""SELECT 
@@ -88,9 +88,9 @@ class ProcessData:
         "Datum_nákupu",
         "Druh_potraviny"
 
-        FROM {self.final_data}"""
+        FROM {self.user_data}"""
 
-        self.get_data_from_final_data(query)
+        self.get_data_from_user_data(query)
 
     def price_to_grams(self):
         """
@@ -260,13 +260,13 @@ class ProcessData:
 
             
     @staticmethod
-    def delete_final_data():
+    def delete_user_data():
         """
-        Temporary function for delete final_data before push to github.
+        Temporary function for delete user_data before push to github.
         Will be deprecated after split database.
         """
-        with sqlite3.connect("projekt_data.db") as conn:
-            conn.execute("DROP TABLE IF EXISTS final_data")
+        with sqlite3.connect("user_db.db") as conn:
+            conn.execute("DROP TABLE IF EXISTS user_data")
 
 
     
