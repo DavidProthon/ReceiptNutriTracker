@@ -10,7 +10,7 @@ from pathlib import Path
 from read_recepits import PngReader
 from read_recepits import PdfReader
 from albert_receipts import AlbertReceipts
-from billa_receipts import BillaReceipts
+from lidl_receipts import LidlReceipts
 from main_data_store import MainDataStore
 
 #TODO 
@@ -50,7 +50,7 @@ class ReceiptsManager(MainDataStore):
                 receipts_text = PngReader(receipt_path).read_png() 
 
                 if "Lidl" in receipts_text:
-                    process_receipt = BillaReceipts(receipts_text).process_billa_receipt()
+                    process_receipt = LidlReceipts(receipts_text).process_lidl_receipt()
                     df = pd.concat([df, process_receipt], ignore_index=True)
 
         return df

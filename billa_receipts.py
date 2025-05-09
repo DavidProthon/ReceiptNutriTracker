@@ -1,5 +1,5 @@
 """
-This module is used to process receipts from the Billa store. 
+This module is used to process receipts from the Lidl store. 
 Receives the loaded receipt in the form of a formatted string.
 It processes and returns individual items and information about name, relative quantity, price, store and item purchase date in the form of a dataframe.
 """
@@ -12,7 +12,7 @@ from receipt_base import Receipts
 
 #TODO 
 
-class BillaReceipts(Receipts):
+class LidlReceipts(Receipts):
     def __init__(self, receipt_text):
         super().__init__()
         self.receipt_text = receipt_text
@@ -47,7 +47,7 @@ class BillaReceipts(Receipts):
 
         self.lst_with_items = connected_items
                 
-    def divide_the_quantity_billa(self,mark):
+    def divide_the_quantity_lidl(self,mark):
         """
         Duplicates items in a list based on the number found before a specified substring (mark).
         Each item containing the mark is copied (number - 1) times, and all items are returned in a new list.
@@ -134,7 +134,7 @@ class BillaReceipts(Receipts):
         self.df["Poměrová_velikost_balení"] = self.df["Poměrová_velikost_balení"].apply(lambda text: self.change_item(text,"Kč/ks"))
         self.df["Poměrová_velikost_balení"] = self.df["Poměrová_velikost_balení"].apply(lambda text: self.change_proportional_package_size(text,2))
             
-    def process_billa_receipt(self):
+    def process_lidl_receipt(self):
         """
         Functions used for organization and logical processing of individual programmed functions.
         """
@@ -145,16 +145,16 @@ class BillaReceipts(Receipts):
         self.split_on_newline(get_text)
         self.connect_necessary_items()
         self.remove_non_food("C")
-        self.divide_the_quantity_billa(r"ks")
+        self.divide_the_quantity_lidl(r"ks")
         
         self.items_to_dataframe() 
         self.add_price_column() 
         self.edit_price_column()
         self.edit_proportional_package_size()
-        self.add_shop_column("Billa")
+        self.add_shop_column("Lidl")
         self.add_date_column(date)
         self.set_correct_data_types()
-        self.add_shopname_to_item("Billa")
+        self.add_shopname_to_item("Lidl")
 
         return self.df
     
@@ -167,5 +167,5 @@ if __name__ == "__main__":
         if receipt.endswith(".png"):
             receipt_path = os.path.join(directory, receipt)
             receipt_text = PngReader(receipt_path).read_png() 
-            data = BillaReceipts(receipt_text).process_billa_receipt()
+            data = LidlReceipts(receipt_text).process_lidl_receipt()
 
