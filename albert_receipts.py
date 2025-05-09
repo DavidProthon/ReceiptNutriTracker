@@ -26,7 +26,7 @@ class AlbertReceipts(Receipts):
 
         credit_pattern = r"\nZískané kredity: \d+ kredit(y|ů)" 
         self.lst_with_items = [re.sub(credit_pattern, "", item) for item in buy_items]
-    
+        
     def get_individual_items(self):
         """
         First it finds the positions of all "KčA" and "KčB".
