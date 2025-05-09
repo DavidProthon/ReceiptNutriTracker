@@ -34,18 +34,16 @@ class AlbertReceipts(Receipts):
         And then divides them according to these positions.
         """
 
-        pozice = [] 
+        positon = [] 
         for item in self.lst_with_items:
-
-            pozice.extend([i for i in range(len(item)) if item.startswith("KčA", i) or item.startswith("KčB", i)])
+            positon.extend([i for i in range(len(item)) if item.startswith("KčA", i) or item.startswith("KčB", i)])
 
         individual_items = []
-        for i in range(len(pozice)):
+        for i in range(len(positon)):
             if i == 0:
-                individual_items.append(self.lst_with_items[0][:pozice[i]+3])
+                individual_items.append(self.lst_with_items[0][:positon[i]+3])
             else:
-                individual_items.append(self.lst_with_items[0][pozice[i-1]+4:pozice[i]+3])
-
+                individual_items.append(self.lst_with_items[0][positon[i-1]+4:positon[i]+3])
 
         self.lst_with_items = individual_items
            
