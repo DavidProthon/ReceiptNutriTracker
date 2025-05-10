@@ -21,7 +21,7 @@ class LidlReceipts(Receipts):
         """
         Takes a long formatted string and splits it at places where there is a newline
         """
-        print(type(text))
+
         for item in text:
             split_items = item.split('\n')
             self.lst_with_items.extend(split_items)
